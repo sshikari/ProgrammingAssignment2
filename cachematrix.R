@@ -6,9 +6,8 @@
 ## a$set(matrix(1:4,2,2))
 ## cacheSolve(a)
 
-## makeCacheMatrix takes a matrix as an argument, calls cacheSolve() to calculate and 
-## store the inverse of the matrix in cache.  The method also contains functions to get the matrix and
-## to get and set the inverse of the matrix.
+## makeCacheMatrix constructs an empty matrix and stores it in a variable and contains methods to get / set a matrix
+## to that variable. It also initializes a variable that can store the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     inverseMatrix <- NULL
